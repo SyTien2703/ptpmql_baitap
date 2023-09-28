@@ -25,7 +25,6 @@ namespace NewApp.Models
             //câu lệnh xử lý ngoại lệ
             Age = 0;
         }
-
        }
        public void HienThi()
        {
