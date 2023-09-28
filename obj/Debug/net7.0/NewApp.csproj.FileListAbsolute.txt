@@ -9,3 +9,10 @@ C:\ptpmql1\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
 C:\ptpmql1\NewApp\obj\Debug\net7.0\NewApp.dll
 C:\ptpmql1\NewApp\obj\Debug\net7.0\refint\NewApp.dll
 C:\ptpmql1\NewApp\obj\Debug\net7.0\NewApp.pdb
+C:\ptpmql1\NewApp\bin\Debug\net7.0\NewApp.exe
+C:\ptpmql1\NewApp\bin\Debug\net7.0\NewApp.deps.json
+C:\ptpmql1\NewApp\bin\Debug\net7.0\NewApp.runtimeconfig.json
+C:\ptpmql1\NewApp\bin\Debug\net7.0\NewApp.dll
+C:\ptpmql1\NewApp\bin\Debug\net7.0\NewApp.pdb
+C:\ptpmql1\NewApp\obj\Debug\net7.0\NewApp.genruntimeconfig.cache
+C:\ptpmql1\NewApp\obj\Debug\net7.0\ref\NewApp.dll

@@ -1,6 +1,8 @@
+
 namespace NewApp.Models
 {
     public class Person
+    
     {
         //thuoc tinh
        public string PersonID { get; set; }
@@ -15,8 +17,14 @@ namespace NewApp.Models
         System.Console.Write("Full Name = ");
         FullName = Console.ReadLine();
         System.Console.Write("Age = ");
-        Age = Convert.ToInt16(Console.ReadLine());
-
+        try{
+            //câu lệnh có thể gây ngoại lệ
+            Age = Convert.ToInt16(Console.ReadLine());
+        }catch(Exception e)
+        {
+            //câu lệnh xử lý ngoại lệ
+            Age = 0;
+        }
 
        }
        public void HienThi()

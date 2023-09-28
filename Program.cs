@@ -1,4 +1,4 @@
-﻿﻿using NewApp.Models;
+﻿using NewApp.Models;
 
 Person ps = new Person();
 ps.NhapThongTin();
