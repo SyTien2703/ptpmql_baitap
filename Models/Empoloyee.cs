@@ -21,7 +21,6 @@ namespace NewApp.Models
         Luong = Convert.ToDouble(Console.ReadLine());
 
 
-
        }
        public void HienThi()
        {
