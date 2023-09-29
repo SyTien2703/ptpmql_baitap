@@ -11,7 +11,7 @@ public class Person
      
     Student std = new Student();
     std.NhapThongTin();
-    std.StudentCode = "12345678";
+    std.StudentCode = "2021050637";
     std.HienThi();
     
     }
