@@ -10,7 +10,7 @@ Person ps2 = new Person();
 ps.NhapThongTin();
 ps.HienThi();
 ps2.HienThi();
-//vu ngoc tuyen 2021050715
+//nguyen sy tien - 2021050637
 Employee emp = new Employee();
 emp.NhapThongTin();
 emp.HienThi();
