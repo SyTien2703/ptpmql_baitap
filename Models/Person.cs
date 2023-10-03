@@ -2,7 +2,7 @@
 namespace NewApp.Models
 {
     public class Person
-    
+    // nguyễn sỹ tiến - 2021050637
     {
         //thuoc tinh
        public string PersonID { get; set; }
@@ -17,6 +17,7 @@ namespace NewApp.Models
         System.Console.Write("Full Name = ");
         FullName = Console.ReadLine();
         System.Console.Write("Age = ");
+        // try... catch
         try{
             //câu lệnh có thể gây ngoại lệ
             Age = Convert.ToInt16(Console.ReadLine());
