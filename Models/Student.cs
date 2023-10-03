@@ -1,21 +1,41 @@
- namespace NewApp.Models
+namespace NewApp.Models
  {
  public class Students  {
         public string Name {get;set;}
+        public string DateOfBirth {get; set;}
         public string Address {get; set;}
-        public string StudentID {get; set;}
+        public int StudentID {get; set;}
+        public string PhoneNumber {get; set;}
+
         
+        //nguyễn sỹ tiến - 2021050637
         
-    // tran thi mai anh -2021050093
-    // phuong co gia tri tra ve-student
-        public Students ()
+        public void NhapThongTin()
         {
-            Name = "ho ten cua ban";
-            Address ="Ha Noi";
-            StudentID ="2021050637";
+            System.Console.WriteLine("Ho Va Ten");
+            Name = Console.ReadLine();
+            System.Console.WriteLine("Ngay Thang Nam Sinh");
+            DateOfBirth = Console.ReadLine();
+            System.Console.WriteLine("Dia Chi");
+            Address = Console.ReadLine();
+            System.Console.WriteLine("Ma Sinh Vien");
+            StudentID = Console.ReadLine();
+            System.Console.WriteLine("So Dien Thoai");
+            
+            // try..catch
+            try{
+                PhoneNumber = Convert.ToInt16(Console.ReadLine());
+            } catch(Exception e)
+            {
+                PhoneNumber =0;
+            }
+            
         }
-        public int GetYearOfBirth(int age)
-    {
-        int yearOfBirth = 2023-age;
-        return yearOfBirth;
-    }
+
+        public void HienThi()
+         {
+             System.Console.WriteLine("{0}-{1}-{2}", Name, DateOfBirth, Address, StudentID, PhoneNumber);
+         }
+ }
+
+ }    
