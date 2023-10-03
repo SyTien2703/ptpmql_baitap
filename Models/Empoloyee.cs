@@ -8,7 +8,7 @@ namespace NewApp.Models
        public int Tuoi { get; set; }
        public double Luong { get; set; }
 
-
+// nguyễn sỹ tiến - 2021050637
        public void NhapThongTin()
        {
         System.Console.Write("Ma Nhan Vien = ");
@@ -18,8 +18,15 @@ namespace NewApp.Models
         System.Console.Write("Tuoi = ");
         Tuoi = Convert.ToInt32(Console.ReadLine());
         System.Console.Write("Luong = ");
-        Luong = Convert.ToDouble(Console.ReadLine());
-
+        //try ...catch 
+         try{
+            //câu lệnh có thể gây ngoại lệ
+            Luong = Convert.ToInt16(Console.ReadLine());
+        }catch(Exception e)
+        {
+            //câu lệnh xử lý ngoại lệ
+            Luong = 0;
+        }
 
        }
        public void HienThi()
