@@ -19,15 +19,14 @@ namespace NewApp.Models
             System.Console.WriteLine("Dia Chi");
             Address = Console.ReadLine();
             System.Console.WriteLine("Ma Sinh Vien");
-            StudentID = Console.ReadLine();
             System.Console.WriteLine("So Dien Thoai");
-            
+            PhoneNumber = Console.ReadLine();
             // try..catch
             try{
-                PhoneNumber = Convert.ToInt16(Console.ReadLine());
+                StudentID = Convert.ToInt16(Console.ReadLine());
             } catch(Exception e)
             {
-                PhoneNumber =0;
+                StudentID =0;
             }
             
         }
