@@ -7,7 +7,7 @@ namespace NewApp.Models
        public string TenNhanVien { get; set; }
        public int Tuoi { get; set; }
        public double Luong { get; set; }
-
+       
 // nguyễn sỹ tiến - 2021050637
        public void NhapThongTin()
        {
