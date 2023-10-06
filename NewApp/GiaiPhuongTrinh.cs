@@ -14,7 +14,7 @@ namespace NewApp.Models
             }
         }
         }
-    
+        
     public string PTBacHai(double a, double b, double c)
     {
         double delta = b*b -4*a*c;
