@@ -1,9 +1,25 @@
-﻿using NewApp.Models;
+﻿using System.Reflection.Metadata;
+using NewApp.Models;
+public class Program {
+    private static void Main(string[] args){
+        Person ps1 = new Person();
+        Employee emp = new Employee();
+        Student std = new Student();
+        Fruit fr = new Fruit();
+        Cam org = new Cam();
+        string HoTen = "Nguyen Sy Tien";
+        int Tuoi = 21;
+        ps1.HienThi(HoTen, Tuoi);
+        System.Console.WriteLine("{0} sinh nam {1}", HoTen, ps1.Namsinh);
+        
+        std.Nhapthongtin();
+        std.HienThi();
 
-Person ps = new Person();
-ps.NhapThongTin();
-ps.HienThi();
+        emp.Nhapthongtin();
+        emp.HienThi();
 
-Employee emp = new Employee();
-emp.NhapThongTin();
-emp.HienThi();
+        org.Nhapthongtin();
+        org.Hienthi();
+        org.Note();
+    }
+}
