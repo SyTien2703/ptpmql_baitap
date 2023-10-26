@@ -11,7 +11,7 @@ public class PTBacHaiController : Controller
     [HttpPost]
 
 
-    public IActionResult IndexPTBacHai (GiaiPTBAC2 model)
+    public IActionResult IndexPTBacHai (GiaiPTBac2 model)
 
     {
         double delta = model.b * model.b - 4 * model.a * model.c;
@@ -34,4 +34,12 @@ public class PTBacHaiController : Controller
 
         return View("IndexPTBacHai", model);
     }
+}
+
+public class GiaiPTBAC2
+{
+}
+
+public class PTBacHai
+{
 }
