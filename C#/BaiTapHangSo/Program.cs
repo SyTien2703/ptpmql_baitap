@@ -3,7 +3,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        //Nguyễn Sỹ Tiến - 2021050637
         Console.WriteLine("Cac kieu du lieu trong c# :");
         const int a = 696969;
         Console.WriteLine("Kieu du lieu int: " + a);
@@ -21,5 +20,6 @@ internal class Program
         Console.WriteLine("Kieu du lieu char: " + g);
         const string h = "Dao Trong Hieu 2021050258";
         Console.WriteLine("Kieu du lieu string: " + h);
+        //Nguyễn Sỹ Tiến - 2021050637
     }
 }
