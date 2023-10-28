@@ -4,7 +4,7 @@ namespace NewApp.Models
     public class Person
     // nguyễn sỹ tiến - 2021050637
     {
-<<<<<<< HEAD
+
         //thuoc tinh
        public string PersonID { get; set; }
        public string FullName { get; set; }
@@ -32,7 +32,7 @@ namespace NewApp.Models
        {
         System.Console.WriteLine("{0} - {1} - {2} tuoi", PersonID, FullName, Age);
        }
-=======
+
     
      
     Student std = new Student();
@@ -40,6 +40,5 @@ namespace NewApp.Models
     std.StudentCode = "2021050637";
     std.HienThi();
     
->>>>>>> 4d89a1d4b1833a479ffa4da550fbd73e3ebf8e92
     }
 }
