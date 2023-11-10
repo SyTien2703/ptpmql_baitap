@@ -34,11 +34,9 @@ namespace NewApp.Models
        }
 
     
-     
     Student std = new Student();
     std.NhapThongTin();
     std.StudentCode = "2021050637";
     std.HienThi();
-    
     }
 }

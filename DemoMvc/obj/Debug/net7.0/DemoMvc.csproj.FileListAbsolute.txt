@@ -28,3 +28,4 @@ C:\ptpmql1\DemoMvc\obj\Debug\net7.0\refint\DemoMvc.dll
 C:\ptpmql1\DemoMvc\obj\Debug\net7.0\DemoMvc.pdb
 C:\ptpmql1\DemoMvc\obj\Debug\net7.0\DemoMvc.genruntimeconfig.cache
 C:\ptpmql1\DemoMvc\obj\Debug\net7.0\ref\DemoMvc.dll
+C:\ptpmql1\DemoMvc\obj\Debug\net7.0\DemoMvc.csproj.AssemblyReference.cache
