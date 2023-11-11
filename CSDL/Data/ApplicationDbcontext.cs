@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using DemoMvc.Models;
+using CSDL.Models;
 
 namespace CSDL.Data
 {
@@ -12,5 +12,6 @@ namespace CSDL.Data
         public ApplicationDbcontext(DbContextOptions<ApplicationDbcontext> options) : base(options){}
 
         public DbSet<Person> Person {get; set ;}
+        public DbSet<Employee> Employee { get; set; } = default!;
     }
 }
