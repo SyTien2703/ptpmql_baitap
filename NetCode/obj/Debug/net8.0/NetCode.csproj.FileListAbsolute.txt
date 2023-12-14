@@ -276,3 +276,4 @@ C:\ptpmql1\NetCode\obj\Debug\net8.0\refint\NetCode.dll
 C:\ptpmql1\NetCode\obj\Debug\net8.0\NetCode.pdb
 C:\ptpmql1\NetCode\obj\Debug\net8.0\NetCode.genruntimeconfig.cache
 C:\ptpmql1\NetCode\obj\Debug\net8.0\ref\NetCode.dll
+C:\ptpmql1\NetCode\obj\Debug\net8.0\NetCode.MvcApplicationPartsAssemblyInfo.cs

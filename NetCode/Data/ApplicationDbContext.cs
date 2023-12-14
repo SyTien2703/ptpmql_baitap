@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Netcode.Models;
 
-namespace NetMVC.Data
+namespace Netcode.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -11,7 +11,8 @@ namespace NetMVC.Data
         }
         public DbSet<Person> Person { get; set; }
         public DbSet<Student> Student { get; set; }
-        public DbSet<NetMVC.Models.Faculty> Faculty { get; set; } = default!;
+        public DbSet<Netcode.Models.Faculty> Faculty { get; set; } = default!;
         public DbSet<Sanpham> Sanpham { get; set; }
         public DbSet<Khachhang> Khachhang { get; set; }
     }
+}

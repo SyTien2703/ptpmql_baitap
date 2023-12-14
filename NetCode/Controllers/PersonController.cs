@@ -161,10 +161,7 @@ namespace NetMVC.Controllers
         {
           return (_context.Person?.Any(e => e.PersonID == id)).GetValueOrDefault();
         }
-        public async Task<IActionResult> Upload()
-        {
-            return View();
-        }
+    
         [HttpPost]
         [ValidateAntiForgeryToken]
          public async Task<IActionResult> Upload(IFormFile file)

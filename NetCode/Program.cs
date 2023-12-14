@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using NetCode.Data;
+using Netcode.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
